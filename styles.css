@@ -1,0 +1,100 @@
+
+
+/*---element selectors---*/
+
+ {
+    border: 1px solid red;
+}
+  
+html {
+    font-family: Cursive, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #f4f019, #89ffff, #affffa, #6108e8);
+  }
+
+  body {
+    margin: 1rem 10rem
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    filter: drop-shadow(2px 2px 1px #e41607a9);
+    color: blue;
+  }
+  
+  h2 {
+    margin: 4rem auto 1rem auto;
+    color: pink
+  }
+  .no-bullets li:hover{
+    background-color: red;
+  }
+  .schedule-div{ 
+    text-align: center;
+    margin: 1rem auto;
+    font-weight: lighter;
+    list-style-type: none;
+  }
+  ul.no-bullets {
+    color: green;
+  }
+  .no-bullets{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+  .nav-div{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: larger;
+  }
+  .nav-div a{
+    color: rgb(192, 12, 153);
+  }
+
+  .img-style{
+    margin:1rem;
+    border-radius:1rem;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .5);
+  }
+  #img-home{
+    width: 600px
+  }
+  .center-img{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*   */ 
+  }
+  .home-style{
+    border-collapse: collapse;
+    width:100%;
+  }
+  th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: black;
+  }
+  tr{
+    text-align: center;
+  }
+
+ th{
+    font-weight: 900;
+    font-size: 1.5em;
+    color: green;
+}
+.table-style{
+    display: flex;
+    justify-content: center;
+}
+.style-about{
+    font-size: 1.6em;
+    color: black;
+}
+.skill-style{
+    color: goldenrod;
+}
+.skill-style li:nth-child(even){
+  background-color: rgb(43, 68, 5);
+}
+
